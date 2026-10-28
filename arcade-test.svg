@@ -1,0 +1,7 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+	<rect width="600" height="600" fill="#163b73"/>
+	<circle cx="300" cy="300" r="230" fill="#f4c542"/>
+	<path d="M120 300 H480 M300 120 V480" stroke="#163b73" stroke-width="22"/>
+	<text x="300" y="290" text-anchor="middle" font-family="Arial" font-size="58" font-weight="bold" fill="#163b73">MISI</text>
+	<text x="300" y="365" text-anchor="middle" font-family="Arial" font-size="65" font-weight="bold" fill="#163b73">PPNSKL</text>
+</svg>
