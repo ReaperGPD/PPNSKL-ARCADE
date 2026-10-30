@@ -1,0 +1,177 @@
+﻿
+/* PPNSKL ARCADE — Festival Bagandang TV Theme */
+
+:root {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#root > main {
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 28px 36px !important;
+    background: radial-gradient(circle at 5% 5%, #ffcc4d 0%, transparent 23%), radial-gradient(circle at 95% 90%, #f15b50 0%, transparent 25%), linear-gradient(145deg, #0877c8, #063b86 75%) !important;
+    color: #fff !important;
+    font-family: "Trebuchet MS", Arial, sans-serif !important;
+}
+
+    /* Main title */
+
+    #root > main > header {
+        margin-bottom: 26px !important;
+    }
+
+        #root > main > header img {
+            width: 100px !important;
+            filter: drop-shadow(0 5px 5px #002b5b55);
+        }
+
+        #root > main > header h1 {
+            margin: 8px 0 !important;
+            font-size: clamp(32px, 4vw, 62px) !important;
+            font-weight: 900;
+            letter-spacing: 2px;
+            color: #fff !important;
+            text-shadow: 4px 5px 0 #b62e35;
+        }
+
+        #root > main > header p {
+            display: inline-block;
+            margin: 10px auto 0;
+            padding: 9px 28px;
+            border: 3px solid #fff;
+            border-radius: 50px;
+            background: #e94345;
+            box-shadow: 0 5px 0 #a91c29;
+            font-size: clamp(15px, 1.5vw, 23px);
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+    /* Ranking panels */
+
+    #root > main > div {
+        align-items: stretch;
+        gap: 24px !important;
+    }
+
+        #root > main > div > section {
+            min-width: 0 !important;
+            padding: 22px !important;
+            border: 5px solid #ffd34e;
+            border-radius: 24px !important;
+            background: linear-gradient(180deg, #fffef4, #fff1c9) !important;
+            box-shadow: 9px 10px 0 #b72c39;
+            color: #16345e !important;
+        }
+
+            #root > main > div > section h2 {
+                margin: 0 0 18px;
+                padding: 12px 16px;
+                border-radius: 15px;
+                background: #087bc5;
+                color: white;
+                font-size: clamp(23px, 2.4vw, 38px);
+                text-align: center;
+                text-shadow: 2px 2px 0 #064c87;
+            }
+
+    /* Ranking tables */
+
+    #root > main table {
+        width: 100%;
+        border-collapse: separate !important;
+        border-spacing: 0 7px !important;
+        font-size: clamp(15px, 1.3vw, 22px);
+    }
+
+    #root > main th {
+        padding: 12px 9px;
+        color: #174270;
+        font-size: 0.83em;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    #root > main td {
+        padding: 10px 9px !important;
+        background: #e5f4ff;
+        font-weight: 700;
+    }
+
+    #root > main tbody tr td:first-child {
+        width: 22%;
+        border-radius: 12px 0 0 12px;
+        font-size: 1.1em;
+        font-weight: 900;
+        color: #c12f36;
+    }
+
+    #root > main tbody tr td:last-child {
+        border-radius: 0 12px 12px 0;
+        color: #005ca4;
+    }
+
+    #root > main tbody tr:nth-child(1) td {
+        background: #ffe08b;
+    }
+
+    #root > main tbody tr:nth-child(2) td {
+        background: #dce7f2;
+    }
+
+    #root > main tbody tr:nth-child(3) td {
+        background: #f5d6b8;
+    }
+
+    /* QR code and footer */
+
+    #root > main > footer {
+        margin-top: 32px !important;
+        text-align: center;
+    }
+
+        #root > main > footer > div {
+            padding: 14px !important;
+            border: 5px solid #ffd34e;
+            border-radius: 22px !important;
+            box-shadow: 7px 7px 0 #b72c39;
+        }
+
+        #root > main > footer > p:first-of-type {
+            margin: 12px 0;
+            color: #fff5b8;
+            font-size: clamp(18px, 2vw, 29px);
+            font-weight: 900;
+            letter-spacing: 1px;
+            text-shadow: 2px 3px 0 #063b86;
+        }
+
+        #root > main > footer > p:not(:first-of-type) {
+            margin: 6px 0;
+            font-size: 13px;
+            color: #e6f4ff;
+        }
+
+/* Smaller monitors */
+
+@media (max-width: 850px) {
+    #root > main {
+        padding: 18px !important;
+    }
+
+        #root > main > div {
+            flex-direction: column;
+        }
+
+            #root > main > div > section {
+                min-width: 0 !important;
+            }
+
+        #root > main table {
+            font-size: 16px;
+        }
+}
